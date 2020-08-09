@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/Users/charles/Documents/Android/workplace/cmakeDemo/app/../../../sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/charles/Documents/Android/workplace/cmakeDemo/app/../../../sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/charles/Documents/Android/workplace/cmakeDemo/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/charles/Documents/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/charles/Documents/Android/workplace/cmakeDemo/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "/Users/charles/Documents/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/charles/Documents/Android/workplace/cmakeDemo/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+      "buildType": "release",
+      "toolchain": "3988931154",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/charles/Documents/Android/workplace/cmakeDemo/app/src/main/cpp/native-lib.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/Users/charles/Documents/Android/workplace/cmakeDemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+        }
+      ],
+      "output": "/Users/charles/Documents/Android/workplace/cmakeDemo/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "3988931154": {
+      "cppCompilerExecutable": "/Users/charles/Documents/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
